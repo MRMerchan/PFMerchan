@@ -1,0 +1,190 @@
+/*Variables*/
+$letra1: Courier New, Courier, monospace;
+$letra2: Arial, Helvetica, sans-serif;
+$letra3:Verdana, Geneva, Tahoma, sans-serif;
+$color1: rgb(63, 79, 1);
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.jumbotrom{
+    height: 500px;
+    background-image: url(img/cereal.jpg);
+    background-size: cover;
+    background-position: center ;
+    text-shadow: 0 0 5px black;
+}
+
+h2{
+    padding: 20px;
+    font-family: $letra3;
+    color: blanchedalmond;
+    background-size: cover;
+    
+}
+
+.container-fluid{
+    background-color: $color1;
+    padding: 20px;
+    margin-top: 20px;
+    article{
+        border: 10px;  
+        text-align: center;
+        text-shadow: 0 0 5px rgb(115, 112, 112);
+        font-family: $letra2; 
+        color: rgb(62, 94, 3);
+        background-size: cover;
+    }
+    
+}
+
+.frutos{
+    background-image: url(img/frutos.jpg);
+    padding: 20px;
+    background-size: cover;
+    
+}
+
+.legumbres{
+    background-image: url(img/garbanzos.jpg);
+    padding: 20px;
+    background-size: cover;
+    }
+
+.hierbas{
+    background-image: url(img/hierbasmedicinales.jpg);
+    padding: 20px;
+    background-size: cover;
+}
+
+.recetas{
+    background-image: url(img/recetas.jpg);
+    padding: 20px;
+    background-size: cover;
+}
+    
+h1{
+    color: rgb(169, 195, 27);
+    font-family: $letra2;
+}
+p{
+    color: rgb(9, 9, 9);
+}
+.jumbotron1{
+    height: 400px;
+    width: 100 px;
+    background-image: url(img/frutossecosacostada.jpeg);
+    background-size: cover;
+    background-position: center;
+        p{
+            color: black;
+    }
+}
+.jumbotron2{
+    height: 400px;
+    width: 100 px;
+    background-image: url(img/lentejas.jpg);
+    background-size: cover;
+    background-position: center;
+        p{
+            color: black;
+    }
+}
+.jumbotron3{
+    height: 400px;
+    width: 100 px;
+    background-image: url(img/menta.jpg);
+    background-size: cover;
+    background-position: center;
+        p{
+            color: black;
+    }
+}
+.jumbotron4{
+    height: 400px;
+    width: 100 px;
+    background-image: url(img/huevos.jpg);
+    background-size: cover;
+    background-position: center;
+        p{
+            color: black;
+    }
+}
+
+.btn{
+    border-bottom-left-radius: 50%;
+}
+
+.display-4{
+    color: #007bff;
+    padding: auto;
+    text-align: left;
+    text-shadow: #dff024;
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+    background-color: coral;
+    color: brown;
+    margin-bottom: 0; 
+}
+
+.nleft{
+    height: 400px;
+    background-image: url(img/frutossecosparada.jpeg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid rgb(100, 237, 132);
+    
+}
+.nleft1{
+    height: 400px;
+    background-image: url(img/garbanzos.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid rgb(100, 237, 132);
+    
+}
+.nleft2{
+    height: 400px;
+    background-image: url(img/manzanilla.jpg);
+    background-position: center;
+    background-size: cover;
+    border: 3px solid rgb(100, 237, 132);
+    
+}
+
+
+
+.nright{
+    border: 3px solid rgb(100, 237, 132);
+    background-size: cover;
+}
+
+article{
+    border: 3px solid rgb(237, 143, 100) !important;
+    background-color: aquamarine;
+    text-align: center;
+}
+
+footer{
+    background-color:yellowgreen;
+    color: rgb(10, 9, 9);
+    text-align: center;
+    padding: 20px;
+}
+
+@media only screen and (min-width:0) and (max-width:576px) {
+    .navbar-collapse{
+        background-color: rgb(41, 52, 43);
+        justify-content: center !important;
+        display: flex;
+        
+    }
+}
+
+
+@import "_nav";
