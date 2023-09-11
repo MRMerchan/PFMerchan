@@ -6,7 +6,7 @@
 
 .jumbotrom {
   height: 500px;
-  background-image: url(img/cereal.jpg);
+  background-image: linear-gradient(rgba(217, 235, 235, 0.832), rgba(223, 237, 237, 0)), url(img/cereal.jpg);
   background-size: cover;
   background-position: center;
   text-shadow: 0 0 5px black;
@@ -37,24 +37,48 @@ h2 {
   background-image: url(img/frutos.jpg);
   padding: 20px;
   background-size: cover;
+  transform: rotateY(0deg);
+  transition: 5s;
+}
+
+.frutos:hover {
+  transform: rotateY(360deg);
 }
 
 .legumbres {
   background-image: url(img/garbanzos.jpg);
   padding: 20px;
   background-size: cover;
+  transform: rotateY(0deg);
+  transition: 5s;
+}
+
+.legumbres:hover {
+  transform: rotateY(360deg);
 }
 
 .hierbas {
   background-image: url(img/hierbasmedicinales.jpg);
   padding: 20px;
   background-size: cover;
+  transform: rotateY(0deg);
+  transition: 5s;
+}
+
+.hierbas:hover {
+  transform: rotateY(360deg);
 }
 
 .recetas {
   background-image: url(img/recetas.jpg);
   padding: 20px;
   background-size: cover;
+  transform: rotateX(0deg);
+  transition: 5s;
+}
+
+.recetas:hover {
+  transform: rotateX(360deg);
 }
 
 h1 {
@@ -153,6 +177,30 @@ h2 {
   border: 3px solid rgb(100, 237, 132);
 }
 
+.nleftfacil {
+  height: 400px;
+  background-image: url(img/hummus.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid rgb(100, 237, 132);
+}
+
+.nleftmedia {
+  height: 400px;
+  background-image: url(img/barritas.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid rgb(100, 237, 132);
+}
+
+.nleftdificil {
+  height: 400px;
+  background-image: url(img/pan.jpg);
+  background-position: center;
+  background-size: cover;
+  border: 3px solid rgb(100, 237, 132);
+}
+
 .nright {
   border: 3px solid rgb(100, 237, 132);
   background-size: cover;
@@ -160,7 +208,7 @@ h2 {
 
 article {
   border: 3px solid rgb(237, 143, 100) !important;
-  background-color: aquamarine;
+  background: radial-gradient(rgb(82, 240, 105), rgb(95, 233, 82), rgb(12, 106, 47));
   text-align: center;
 }
 
