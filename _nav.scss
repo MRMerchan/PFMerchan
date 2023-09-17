@@ -1,10 +1,11 @@
 $letra3: Verdana, Geneva, Tahoma, sans-serif;
+$color3: black;
 
 .navbar{
     height: 80px;
-    box-shadow: 0 0 5px #000 !important;
+    box-shadow: 0 0 5px $color3 !important;
     .navbar-brand {
-        color: rgb(210, 13, 13);
+        color: #FFD687;
         font-family: $letra3;
         font-size: xx-large !important;
         
@@ -14,5 +15,5 @@ $letra3: Verdana, Geneva, Tahoma, sans-serif;
         }
     }
 .nav-link{
-        color:rgb(232, 232, 239) !important;
+        color:#FFD687!important;
 }

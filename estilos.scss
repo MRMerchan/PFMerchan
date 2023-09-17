@@ -1,17 +1,22 @@
-/*Variables*/
-$letra1: Courier New, Courier, monospace;
-$letra2: Arial, Helvetica, sans-serif;
-$letra3:Verdana, Geneva, Tahoma, sans-serif;
-$color1: rgb(63, 79, 1);
-
-* {
+*{
     margin: 0%;
     padding: 0%;
 }
 
+/*Variables*/
+$letra1: Courier New, Courier, monospace;
+$letra2: Arial, Helvetica, sans-serif;
+$letra3:Verdana, Geneva, Tahoma, sans-serif;
+$color1:#1E5F15;
+$color2: #73882C;
+$color3: black;
 
 
-.jumbotrom{
+
+
+
+
+.jumbotrom {
     height: 500px;
     background-image: linear-gradient(rgba(217, 235, 235, 0.832),rgba(223, 237, 237, 0)) ,url(img/cereal.jpg);
     background-size: cover;
@@ -22,7 +27,7 @@ $color1: rgb(63, 79, 1);
 h2{
     padding: 20px;
     font-family: $letra3;
-    color: blanchedalmond;
+    color: $color2;
     background-size: cover;
     
 }
@@ -92,12 +97,14 @@ h2{
 }
 
 h1{
-    color: rgb(169, 195, 27);
+    color: #C4AF52;
     font-family: $letra2;
 }
+
 p{
-    color: rgb(9, 9, 9);
+    color: $color3;
 }
+
 .jumbotron1{
     height: 400px;
     width: 100 px;
@@ -105,7 +112,7 @@ p{
     background-size: cover;
     background-position: center;
         p{
-            color: black;
+            color: $color3;
     }
 }
 .jumbotron2{
@@ -115,7 +122,7 @@ p{
     background-size: cover;
     background-position: center;
         p{
-            color: black;
+            color: $color3;
     }
 }
 .jumbotron3{
@@ -125,7 +132,7 @@ p{
     background-size: cover;
     background-position: center;
         p{
-            color: black;
+            color: $color3;
     }
 }
 .jumbotron4{
@@ -135,7 +142,7 @@ p{
     background-size: cover;
     background-position: center;
         p{
-            color: black;
+            color: $color3;
     }
 }
 
@@ -144,17 +151,17 @@ p{
 }
 
 .display-4{
-    color: #007bff;
+    color: $color2;
     padding: auto;
     text-align: left;
-    text-shadow: #dff024;
+    text-shadow: 0 0 3px $color3;
 }
 
 h2{
     text-align: center;
     padding: 20px;
-    background-color: coral;
-    color: brown;
+    background-color: #C4AF52;
+    color: $color1;
     margin-bottom: 0; 
 }
 
@@ -163,7 +170,7 @@ h2{
     background-image: url(img/frutossecosparada.jpeg);
     background-position: center;
     background-size: cover;
-    border: 3px solid rgb(100, 237, 132);
+    border: 3px solid $color2;
     
 }
 .nleft1{
@@ -171,7 +178,7 @@ h2{
     background-image: url(img/garbanzos.jpg);
     background-position: center;
     background-size: cover;
-    border: 3px solid rgb(100, 237, 132);
+    border: 3px solid $color2;
     
 }
 .nleft2{
@@ -179,7 +186,7 @@ h2{
     background-image: url(img/manzanilla.jpg);
     background-position: center;
     background-size: cover;
-    border: 3px solid rgb(100, 237, 132);
+    border: 3px solid $color2;
     
 }
 .nleftfacil{
@@ -187,7 +194,7 @@ h2{
     background-image: url(img/hummus.jpg);
     background-position: center;
     background-size: cover;
-    border: 3px solid rgb(100, 237, 132);
+    border: 3px solid $color2;
     
 }
 .nleftmedia{
@@ -195,7 +202,7 @@ h2{
     background-image: url(img/barritas.jpg);
     background-position: center;
     background-size: cover;
-    border: 3px solid rgb(100, 237, 132);
+    border: 3px solid $color2;
     
 }
 .nleftdificil{
@@ -203,26 +210,25 @@ h2{
     background-image: url(img/pan.jpg);
     background-position: center;
     background-size: cover;
-    border: 3px solid rgb(100, 237, 132);
+    border: 3px solid $color2;
     
 }
 
 
 .nright{
-    border: 3px solid rgb(100, 237, 132);
+    border: 3px solid $color2;
     background-size: cover;
 }
 
 article{
-    border: 3px solid rgb(237, 143, 100) !important;
-    
+    border: 3px solid #C4AF52 !important;
     background: radial-gradient(rgb(82, 240, 105),rgb(95, 233, 82),rgb(12, 106, 47));
     text-align: center;
 }
 
 footer{
-    background-color:yellowgreen;
-    color: rgb(10, 9, 9);
+    background-color:$color1;
+    color: $color3;
     text-align: center;
     padding: 20px;
 }
